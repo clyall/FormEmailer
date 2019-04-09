@@ -1,5 +1,5 @@
 # FormEmailer
-This is a fork of Henrique Abreu's FormEmailer for Google Forms / Sheets. Henrique's script has been updated to a Scripts Add-on, which can be installed in Google Sheets. His original project can be found here:
+This is a fork of Henrique Abreu's FormEmailer for Google Forms / Sheets. This fork includes UI updates to Henrique's script, with the deprecation of UiApp. Henrique's script has been updated to a Scripts Add-on, which can be installed in Google Sheets. His original project can be found here:
 https://sites.google.com/site/formemailer/form-emailer
 
 This script integrates directly with a Google Sheet that holds Google Form responses. Once installed on the spreadsheet containing form responses, this add-on will automatically send notification emails containing the form responses. There are several configuration values to help you customize the emails, which are detailed below
@@ -107,6 +107,28 @@ The resulting construction of the parameter looks like this:
 
 
 ## Formulas Location
+This feature is one that makes FormEmailer very flexible. The idea is to have the script read custom spreadsheet formulas written by you, and apply them to each row (when emails are being generated). This allows you to create complex scenarios that goes beyond simple mail merges. For example:
+  * To change the recipients of an email based on any rule (that you can write as spreadsheet formula, which can be really complex, depending only on your skills). e.g. You can get information provided in the form to lookup a table and retrieve a different recipient list. Or even no recipient, which to FormEmailer, means: do not send
+  * You can make calculations based on the users answers, to retrieve him scores or prices
+  * You can lookup the availability of a product or schedule to send a completely different email based on it
+  
+Here is a technical explanation of this feature (there's an example below):
+You write your formulas on the row N2 (which is the 1st row with data, since row N1 is the header), I suggest you make this 2nd row a template only (but you can have real data too). The script will then copy these formulas down to the row being processed automatically. All you have to do is inform it, in the Formulas location parameter, where your formulas are. You'll be able to use these columns as you use any other question (as they will be replaced by your ## variables). These formulas may even be in another sheet, which I only advise to experts, but use it at your convenience.
+
+This parameter should be written like this: SheetName!StartColumn:EndColumn
+
+Setup example:
+Let's say that you have 4 questions, including the timestamp, so you'd have columns B to E filled with the answers, since the FormEmailer status is on column A. Then, you open up 2 more columns to fit your formulas, after the last answer (on column E). You'll write your formulas on cells F2 and G2. You should also give proper names to these columns (filling out cells F1 and G1 with headers), so you can appropriately reference these variables with ##.
+The last thing missing is to inform the script to copy your formulas by filling the Formulas location parameter, which in this case should be: Sheet1!F:G
+"Sheet1" is just an example too, you should replace it with your actual sheet name.
+Save and Close to make sure it's ok and then re-open to use the new placeholders.
+
+### Closure Mode
+This parameter is only taken into account when the previous one (Formulas location) is being used.
+It's used to determine what you want to be done with the formulas copied in the processing row. There's 3 options:
+  * clear: deletes all copied formulas (after the sending the emails).
+  * values: replace the formulas with their results (useful to have a history and to "unload" the spreadsheet)
+  * formulas: leave the formulas there
 
 ## Report Issues with FormEmailer
 I have only recently taken over this project. As a result, you may encounter bugs; please submit your bugs in the "Issues" tab for this repository. I will respond as soon as I can (also, please copy / paste your settings cell, located in the "Form Emailer" sheet in cell B3)
