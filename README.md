@@ -11,7 +11,7 @@ TODO INSERT LINK
 ### Script Installation
 Once you have downloaded the add-on, you should see a new menu at the top of your spreadsheet called "FormEmailer". If you select this menu, click the "Install" button on the drop down that appears.
 
-Select your language and the sheet you would like FormEmailer to send emails about. Once you select the "Install" button, the add-on will setup it's configuration and create a new sheet called "FormEmailer". This sheet contains all the configuration for the add-on; please do not modify it directly.
+Select your language and the sheet you would like FormEmailer to send emails about (usually the sheet containing your Google Form responses). Once you select the "Install" button, the add-on will setup it's configuration and create a new sheet called "FormEmailer". This sheet contains all the configuration for the add-on; please do not modify it directly.
 
 ### Time-Trigger Installation
 In order for FormEmailer to work properly, you must setup a "Time-trigger" to have this add-on run automatically in the background. Below are the steps to get this setup:
@@ -32,4 +32,21 @@ In order for FormEmailer to work properly, you must setup a "Time-trigger" to ha
 ## Configuration
 Once you have downloaded, installed and setup the time-trigger, you can now begin to configure FormEmailer. On your spreadsheet, in the top menu, select "FormEmailer > Settings". A detailed explanation for each field is listed below.
 
-### 
+### Email Tab
+
+  1. Sender Name - This is the display name that will appear when emails are sent out
+  2. Reply To - This is the default 'reply-to' field if you hit "Reply" on FormEmailer emails
+  3. To - Email to send FormEmailer emails to
+  4. Cc - CC recipient(s) on FormEmailer emails
+  5. Bcc - BCC recipient(s) on FormEmailer emails
+  6. Subject - Subject line on FormEmailer emails
+  7. HTML - Checkbox to determine whether your email "Body" contains HTML
+  8. Body - Email body to be sent in FormEmailer emails. If "html" config option is set, this can contain HTML that will render prior to emails being sent out. You will also notice default values here: please refer to the "Formatting" section for more information 
+  
+### Advanced Tab
+  
+  1. Form Sheet - The sheet containing your Google Form responses. FormEmailer will generate emails from this sheet
+  2. Qtt Emails - The number of emails you want sent out. Multiple email templates are supported (Note: To add another email template, change the number in this field, and select "Save and Close". When you open FormEmailer settings again, you will see your new email tab.
+  3. Quota Warning - Emails sent by FormEmailer are restricted by Google's email quota limit (by default, this is 1500 a day). Quota warning will send a warning email out once this number of emails have been sent out by FormEmailer in a day.
+  4. Quota Limit - When your daily email quota hits this number, stop sending emails for the day.
+  5. Formulas Location - 
