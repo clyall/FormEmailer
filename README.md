@@ -54,6 +54,16 @@ Once you have downloaded, installed and setup the time-trigger, you can now begi
   7. Remaining Quota - The quota remaining on your daily limit (1500). This is a readonly field, for informational purposes only
   
 ## Formatting
+FormEmailer has several handy formatting tools built in. Below are common use cases
+
+### Variables in Email Template
+After intial installation, you may have notcied that the "Body" under the Email tab in Settings contains HTML and variables surrounded by "#"'s. When emails are generated, any text surrounded by #'s will be replaced by the field in the corresponding cell. For example, if your sheet containing form responses has two response fields ("Name" and "Age"), your email template should contain "#Name#" and "#Age#" anywhere you want to insert this value into the email
+
+### Text Formatting
+
+### Date Formatting
+
+### Number Formatting
 
 
 ## Formulas Location
