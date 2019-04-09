@@ -6,7 +6,7 @@ This script integrates directly with a Google Sheet that holds Google Form respo
 
 # Table of Contents
 1. [Getting Started](#getting-started)
-   * [Script Installation](script-installation)
+   * [Script Installation](#script-installation)
 
 ## Getting Started
 If you have not already, please install this add-on on the sheet you would like the program to run on. Download can be found here:
