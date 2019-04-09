@@ -1,15 +1,15 @@
 # FormEmailer
-This is a fork of Henrique Abreu's FormEmailer for Google Forms / Sheets. His original project can be found here:
+This is a fork of Henrique Abreu's FormEmailer for Google Forms / Sheets. Henrique's script has been updated to a Scripts Add-on, which can be installed in Google Sheets. His original project can be found here:
 https://sites.google.com/site/formemailer/form-emailer
 
-His script has been updated to a Scripts Add-on, which can be installed in Google Sheets.
+This script integrates directly with a Google Sheet that holds Google Form responses. Once installed on the spreadsheet containing form responses, this add-on will automatically send notification emails containing the form responses. There are several configuration values to help you customize the emails, which are detailed below
 
 ## Getting Started
 If you have not already, please install this add-on on the sheet you would like the program to run on. Download can be found here:
 TODO INSERT LINK
 
 ### Script Installation
-Once you have download the add-on, you should see a new menu at the top of your spreadsheet called "FormEmailer". If you select this menu, click the "Install" button on the drop down that appears.
+Once you have downloaded the add-on, you should see a new menu at the top of your spreadsheet called "FormEmailer". If you select this menu, click the "Install" button on the drop down that appears.
 
 Select your language and the sheet you would like FormEmailer to send emails about. Once you select the "Install" button, the add-on will setup it's configuration and create a new sheet called "FormEmailer". This sheet contains all the configuration for the add-on; please do not modify it directly.
 
@@ -29,3 +29,7 @@ In order for FormEmailer to work properly, you must setup a "Time-trigger" to ha
    
 7. You can now close the two tabs that were opened, and refresh your spreadsheet.
    
+## Configuration
+Once you have downloaded, installed and setup the time-trigger, you can now begin to configure FormEmailer. On your spreadsheet, in the top menu, select "FormEmailer > Settings". A detailed explanation for each field is listed below.
+
+### 
