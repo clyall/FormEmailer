@@ -49,4 +49,14 @@ Once you have downloaded, installed and setup the time-trigger, you can now begi
   2. Qtt Emails - The number of emails you want sent out. Multiple email templates are supported (Note: To add another email template, change the number in this field, and select "Save and Close". When you open FormEmailer settings again, you will see your new email tab.
   3. Quota Warning - Emails sent by FormEmailer are restricted by Google's email quota limit (by default, this is 1500 a day). Quota warning will send a warning email out once this number of emails have been sent out by FormEmailer in a day.
   4. Quota Limit - When your daily email quota hits this number, stop sending emails for the day.
-  5. Formulas Location - 
+  5. Formulas Location - Please see the "Formulas Location" section
+  6. Closure mode - Please see the "Formulas Location" section
+  7. Remaining Quota - The quota remaining on your daily limit (1500). This is a readonly field, for informational purposes only
+  
+## Formatting
+
+
+## Formulas Location
+
+## Report Issues with FormEmailer
+I have only recently taken over this project. As a result, you may encounter bugs; please submit your bugs in the "Issues" tab for this repository. I will respond as soon as I can (also, please copy / paste your settings cell, located in the "Form Emailer" sheet in cell B3)
