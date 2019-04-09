@@ -60,9 +60,19 @@ FormEmailer has several handy formatting tools built in. Below are common use ca
 After intial installation, you may have notcied that the "Body" under the Email tab in Settings contains HTML and variables surrounded by "#"'s. When emails are generated, any text surrounded by #'s will be replaced by the field in the corresponding cell. For example, if your sheet containing form responses has two response fields ("Name" and "Age"), your email template should contain "#Name#" and "#Age#" anywhere you want to insert this value into the email
 
 ### Text Formatting
-
+| Format | Short | Description | Example |
+| ------ | ----- | ----------- | ------- |
+| sUpper | sU | transform all text to uppercase | "Name" > "NAME" |
+| sDown | sD | transform all text to lowercase | "Name" > "name" |
+| sProper | sP | all first letters will be uppercase and other others lowercase | "mY NAmE" > "My Name" |
 ### Date Formatting
-
+| Format | Result | 
+| ------ | ------ |
+| MM/dd/yy | 04/09/19 |
+| M/d/yyyy | 4/9/2019 |
+| M/d/yy HH:mm:ss | 4/9/19 17:30:00 |
+| h:mm a | 5:30 PM |
+| EEEE, d 'of' MMMM-yyyy | Friday, 8 of April-2019 |
 ### Number Formatting
 
 
