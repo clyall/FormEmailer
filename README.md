@@ -74,6 +74,16 @@ After intial installation, you may have notcied that the "Body" under the Email 
 | h:mm a | 5:30 PM |
 | EEEE, d 'of' MMMM-yyyy | Friday, 8 of April-2019 |
 ### Number Formatting
+| Raw Number | Format | Result | Explanation |
+| ---------- | ------ | -------| ----------- |
+| 1500.35 | , | 1500,35 | changed the decimal separator to a comma "," |
+| 1500.35 | ,.	| 1,500.35 | defined a thousands separator as "," and the decimal separator as "." |
+| 1500.35 | .,3 | 1.500,350 | thousands separator as "."; decimal separator as ","; and 3 decimal numbers. |
+| -23.5 | .0 | -24 | decimal separator as "."; and no decimals. Remember that the definition of decimal separator is obligatory, even if it's not going to show as in this example) |
+| -23.5	| (.2 | (23.50) | negative representation as parenthesis; no thousands separator; obligatory decimal point; and fixed 2 decimals |
+| 0.5	| .% | 50 | obligatory decimal point; and multiply the number by 100. |
+| 52 | ( .3% | 5 200.000 | negative representation as parenthesis; a space as thousands separator; obligatory decimal point; 3 fixed decimals; and multiply by 100. |
+
 
 
 ## Formulas Location
