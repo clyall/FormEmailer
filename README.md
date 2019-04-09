@@ -7,6 +7,19 @@ This script integrates directly with a Google Sheet that holds Google Form respo
 # Table of Contents
 1. [Getting Started](#getting-started)
    * [Script Installation](#script-installation)
+   * [Time-Trigger Installation](#time-trigger-installation)
+2. [Configuration](#configuration)
+   * [Email Tab](#email-tab)
+   * [Advanced Tab](#advanced-tab)
+3. [Formatting](#formatting)
+   * [Variables in Email Template](#variables-in-email-template)
+   * [Including Formats in your Template](#including-formats-in-your-template)
+   * [Text Formatting](#text-formatting)
+   * [Date Formatting](#date-formatting)
+   * [Number Formatting](#number-formatting)
+4. [Formulas Location](#formulas-location)
+   * [Closure Mode](#closure-mode)
+5. [Report Issues with FormEmailer](#report-issues-with-formemailer)
 
 ## Getting Started
 If you have not already, please install this add-on on the sheet you would like the program to run on. Download can be found here:
