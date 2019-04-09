@@ -59,13 +59,23 @@ FormEmailer has several handy formatting tools built in. Below are common use ca
 ### Variables in Email Template
 After intial installation, you may have notcied that the "Body" under the Email tab in Settings contains HTML and variables surrounded by "#"'s. When emails are generated, any text surrounded by #'s will be replaced by the field in the corresponding cell. For example, if your sheet containing form responses has two response fields ("Name" and "Age"), your email template should contain "#Name#" and "#Age#" anywhere you want to insert this value into the email
 
+### Including Formats in your Template
+If you would like to customize the format on your variables, you can use the following format:
+&#35;placeholder|FORMAT&#35;
+
+You may have noticed some of these formats included in the default "Body" template. Below are more documented cases of formatting
+
 ### Text Formatting
+All text formats start with the letter, "s" (for string)
+
 | Format | Short | Description | Example |
 | ------ | ----- | ----------- | ------- |
 | sUpper | sU | transform all text to uppercase | "Name" > "NAME" |
 | sDown | sD | transform all text to lowercase | "Name" > "name" |
 | sProper | sP | all first letters will be uppercase and other others lowercase | "mY NAmE" > "My Name" |
 ### Date Formatting
+The add-on uses a built-in utility to do the date formatting. For more acceptable formats, you can take a look [here](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+
 | Format | Result | 
 | ------ | ------ |
 | MM/dd/yy | 04/09/19 |
@@ -74,6 +84,16 @@ After intial installation, you may have notcied that the "Body" under the Email 
 | h:mm a | 5:30 PM |
 | EEEE, d 'of' MMMM-yyyy | Friday, 8 of April-2019 |
 ### Number Formatting
+Number format are built using the following logic, which may seem difficult at first, but once you get used to it, is very simple to use.
+  * If there's a single character, it will be taken as the decimal separator (this is the only obligatory element).
+  * If there's two characters, the first will be used as thousands separator and the second as the decimal.
+  * After the decimal separator, you can put a number to determine the amount of decimal points.
+  * A percent sign "%", can be used as last char to have the number multiplied by a hundred (100).
+  * An open parenthesis "(" may be used as 1st character to determine that negative numbers should be represented enclosed by parenthesis instead of the minus char (this is most used in financial representations).
+  
+The resulting construction of the parameter looks like this:
+  * [open parenthesis][thousands separator]decimal separator[number of decimals][percent sign]
+
 | Raw Number | Format | Result | Explanation |
 | ---------- | ------ | -------| ----------- |
 | 1500.35 | , | 1500,35 | changed the decimal separator to a comma "," |
