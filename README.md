@@ -1,5 +1,5 @@
 # FormEmailer
-This is a fork of Henrique Abreu's FormEmailer for Google Forms / Sheets. This fork includes UI updates to Henrique's script, with the deprecation of UiApp. Henrique's script has been updated to a Scripts Add-on, which can be installed in Google Sheets. His original project can be found here:
+This is a fork of Henrique Abreu's FormEmailer for Google Forms / Sheets. This fork includes UI updates to Henrique's script, with the deprecation of UiApp. Henrique's script has been updated to a Sheets Add-on, which can be installed in Google Sheets. His original project can be found here:
 https://sites.google.com/site/formemailer/form-emailer
 
 This script integrates directly with a Google Sheet that holds Google Form responses. Once installed on the spreadsheet containing form responses, this add-on will automatically send notification emails containing the form responses. There are several configuration values to help you customize the emails, which are detailed below
@@ -66,8 +66,8 @@ Once you have downloaded, installed and setup the time-trigger, you can now begi
   2. Qtt Emails - The number of emails you want sent out. Multiple email templates are supported (Note: To add another email template, change the number in this field, and select "Save and Close". When you open FormEmailer settings again, you will see your new email tab.
   3. Quota Warning - Emails sent by FormEmailer are restricted by Google's email quota limit (by default, this is 1500 a day). Quota warning will send a warning email out once this number of emails have been sent out by FormEmailer in a day.
   4. Quota Limit - When your daily email quota hits this number, stop sending emails for the day.
-  5. Formulas Location - Please see the "Formulas Location" section
-  6. Closure mode - Please see the "Formulas Location" section
+  5. Formulas Location - Please see the [Formulas Location](#formulas-location) section
+  6. Closure mode - Please see the [Formulas Location](#formulas-location) section
   7. Remaining Quota - The quota remaining on your daily limit (1500). This is a readonly field, for informational purposes only
   
 ## Formatting
