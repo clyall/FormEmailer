@@ -53,7 +53,7 @@ In order for FormEmailer to work properly, you must setup a "Time-trigger" to ha
 
 5. Select "Save" on the popup window
 6. If eveything went OK, you should see the following row displayed:
-   TODO INSERT SCREENSHOT OF SAVED CONFIG
+   ![Saved Config](/successful-config.png)
    
 7. You can now close the two tabs that were opened, and refresh your spreadsheet.
    
