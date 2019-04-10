@@ -38,6 +38,10 @@ If you were previously using Henrique's script (version 3.64 and below), please 
 ### Script Installation
 Once you have downloaded the add-on, you should see a new menu at the top of your spreadsheet called "FormEmailer". If you select this menu, click the "Install" button on the drop down that appears.
 
+An OAuth screen will open in a new tab for you to grant necessary permissions to FormEmailer. Please note: I am still in the process of verifying my domain for this add-on; as a result, you will see the following screen after OAuth submission:
+
+
+Select "Advanced" > "Go To (sheet-name) project (unsafe) " (unless you do not trust any of this, in which case you can wait until the official release :) )
 Select your language and the sheet you would like FormEmailer to send emails about (usually the sheet containing your Google Form responses). Once you select the "Install" button, the add-on will setup it's configuration and create a new sheet called "FormEmailer". This sheet contains all the configuration for the add-on; please do not modify it directly.
 
 
