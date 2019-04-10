@@ -85,7 +85,7 @@ Once you have downloaded, installed and setup the time-trigger, you can now begi
   4. Quota Limit - When your daily email quota hits this number, stop sending emails for the day.
   5. Formulas Location - Please see the [Formulas Location](#formulas-location) section
   6. Closure mode - Please see the [Formulas Location](#formulas-location) section
-  7. Remaining Quota - The quota remaining on your daily limit (1500). This is a readonly field, for informational purposes only
+  7. Remaining Quota - The quota remaining on your daily limit (100). This is a readonly field, for informational purposes only
   
 ## Formatting
 FormEmailer has several handy formatting tools built in. Below are common use cases
