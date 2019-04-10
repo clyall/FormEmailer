@@ -48,7 +48,7 @@ In order for FormEmailer to work properly, you must setup a "Time-trigger" to ha
 2. On this tab, select "Edit > Current Project Triggers" on the top menu. This will also open a new tab.
 3. In this tab, click the "Add Trigger" button found at the bottom right. 
 4. A dialog will popup asking for a bunch of configuration values. You can use the values found below as defaults:
-   TODO INSERT SCREENSHOT OF CONFIG 
+   ![Config Values](/time-driven-config.png)
    Note that you can change the "Select type of time based trigger" to have this add-on run autmoatically at any given time interval.
 
 5. Select "Save" on the popup window
