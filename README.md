@@ -6,6 +6,7 @@ This script integrates directly with a Google Sheet that holds Google Form respo
 
 # Table of Contents
 1. [Getting Started](#getting-started)
+   * [Uninstall Previous Version](#uninstall-previous-version)
    * [Script Installation](#script-installation)
    * [Time-Trigger Installation](#time-trigger-installation)
 2. [Configuration](#configuration)
@@ -25,10 +26,19 @@ This script integrates directly with a Google Sheet that holds Google Form respo
 If you have not already, please install this add-on on the sheet you would like the program to run on. Download can be found here:
 TODO INSERT LINK
 
+### Uninstall Previous Version
+If you were previously using Henrique's script (version 3.64 and below), please follow these steps below to uninstall first.
+  1. Open up the desired spreadsheet and click the menu Tools > Script editor...
+  2. Make sure the FormEmailer script is the one opened (by looking at the tab name). If not, search for it in the menu File > Open. 
+  3. Before deleting the script, let's removed any setup triggers by clicking the menu Triggers > Current script's triggers.
+  4. Remove the triggers by clicking the "x" button on the left of each one, and click Save. Don't worry with the fixed "onOpen" and "onEdit" ones.
+  5. Now click the menu File > Delete.
+
 ### Script Installation
 Once you have downloaded the add-on, you should see a new menu at the top of your spreadsheet called "FormEmailer". If you select this menu, click the "Install" button on the drop down that appears.
 
 Select your language and the sheet you would like FormEmailer to send emails about (usually the sheet containing your Google Form responses). Once you select the "Install" button, the add-on will setup it's configuration and create a new sheet called "FormEmailer". This sheet contains all the configuration for the add-on; please do not modify it directly.
+
 
 ### Time-Trigger Installation
 In order for FormEmailer to work properly, you must setup a "Time-trigger" to have this add-on run automatically in the background. Below are the steps to get this setup:
