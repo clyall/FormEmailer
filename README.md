@@ -23,8 +23,9 @@ This script integrates directly with a Google Sheet that holds Google Form respo
 5. [Report Issues with FormEmailer](#report-issues-with-formemailer)
 
 ## Getting Started
-If you have not already, please install this add-on on the sheet you would like the program to run on. Download can be found here:
-TODO INSERT LINK
+This add-on is not available yet publicly. I plan to release this Sheets Add-On by Monday 4/14/19. Please email me at:
+cole.lyall@gmail.com
+if you would like early access to the script and to test out any intial bugs
 
 ### Uninstall Previous Version
 If you were previously using Henrique's script (version 3.64 and below), please follow these steps below to uninstall first.
