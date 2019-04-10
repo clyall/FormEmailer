@@ -23,7 +23,7 @@ This script integrates directly with a Google Sheet that holds Google Form respo
 5. [Report Issues with FormEmailer](#report-issues-with-formemailer)
 
 ## Getting Started
-This add-on is not available yet publicly. I plan to release this Sheets Add-On by Monday 4/14/19. Please email me at:
+This add-on is not available yet publicly. I plan to release this Sheets Add-On in the coming weeks. Please email me at:
 cole.lyall@gmail.com
 if you would like early access to the script and to test out any intial bugs
 
