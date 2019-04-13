@@ -165,4 +165,4 @@ It's used to determine what you want to be done with the formulas copied in the 
   * formulas: leave the formulas there
 
 ## Report Issues with FormEmailer
-I have only recently taken over this project. As a result, you may encounter bugs; please submit your bugs in the "Issues" tab for this repository. I will respond as soon as I can (also, please copy / paste your settings cell, located in the "Form Emailer" sheet in cell B3)
+I have only recently taken over this project. As a result, you may encounter bugs; please submit your bugs in the "Issues" tab for this repository. I will respond as soon as I can (also, please share your google sheet with me)
