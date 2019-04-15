@@ -1,4 +1,4 @@
-# FormEmailer
+# FormEmailer 
 This is a fork of Henrique Abreu's FormEmailer for Google Forms / Sheets. This fork includes UI updates to Henrique's script, with the deprecation of UiApp. Henrique's script has been updated to a Sheets Add-on, which can be installed in Google Sheets. His original project can be found here:
 https://sites.google.com/site/formemailer/form-emailer
 
