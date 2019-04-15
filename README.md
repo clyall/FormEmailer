@@ -21,6 +21,7 @@ This script integrates directly with a Google Sheet that holds Google Form respo
 4. [Formulas Location](#formulas-location)
    * [Closure Mode](#closure-mode)
 5. [Report Issues with FormEmailer](#report-issues-with-formemailer)
+6. [Support this Project](#support-this-porject)
 
 ## Getting Started
 This add-on is not available yet publicly. I plan to release this Sheets Add-On in the coming weeks. Please email me at:
@@ -166,3 +167,7 @@ It's used to determine what you want to be done with the formulas copied in the 
 
 ## Report Issues with FormEmailer
 I have only recently taken over this project. As a result, you may encounter bugs; please submit your bugs in the "Issues" tab for this repository. I will respond as soon as I can (also, please share your google sheet with me)
+
+## Support this Project
+I work on this project for free; if you would like to donate and support the continuing development of this project, you can go here:
+https://www.buymeacoffee.com/clyall
