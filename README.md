@@ -45,7 +45,7 @@ Please download the zip file [here](https://raw.github.com/clyall/formemailer/ma
 If your spreadsheet already has a previous version of FormEmailer running, setup your files in [Getting Started](#getting-started) and then follow the steps below.
 1. Click "FormEmailer" > "Settings"
 2. You should see a prompt asking if you would like to update your version of FormEmailer
-3. Select "OK". Please note your previous settings will be overwritten. If you can find any fields you want to re-use in the FormEmailer Cell B3 (Settings Cell), copy them and set aside. Then, when the version upgrade goes through, you can paste those values back into the Settings UI ("FormEmailer" > "Settings"). You can now proceed to the * [Time-Trigger Installation](#time-trigger-installation) section.
+3. Select "OK". Please note your previous settings will be overwritten. If you can find any fields you want to re-use in the FormEmailer Cell B3 (Settings Cell), copy them and set aside. Then, when the version upgrade goes through, you can paste those values back into the Settings UI ("FormEmailer" > "Settings"). You can now proceed to the [Time-Trigger Installation](#time-trigger-installation) section.
 
 ### Installation
 Once you have copied the script contents over, you should see a new menu at the top of your spreadsheet called "FormEmailer". If you select this menu, click the "Install" button on the drop down that appears.
