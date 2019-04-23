@@ -6,8 +6,7 @@ This script integrates directly with a Google Sheet that holds Google Form respo
 
 # Table of Contents
 1. [Getting Started](#getting-started)
-   * [Uninstall Previous Version](#uninstall-previous-version)
-   * [Script Installation](#script-installation)
+   * [Installation](#installation)
    * [Time-Trigger Installation](#time-trigger-installation)
 2. [Configuration](#configuration)
    * [Email Tab](#email-tab)
@@ -21,23 +20,29 @@ This script integrates directly with a Google Sheet that holds Google Form respo
 4. [Formulas Location](#formulas-location)
    * [Closure Mode](#closure-mode)
 5. [Report Issues with FormEmailer](#report-issues-with-formemailer)
-6. [Support this Project](#support-this-porject)
+6. [Support this Project](#support-this-project)
 
 ## Getting Started
-This add-on is not available yet publicly. I plan to release this Sheets Add-On in the coming weeks. Please email me at:
-cole.lyall@gmail.com
-if you would like early access to the script and to test out any intial bugs
+Please download the zip file [here](https://raw.github.com/clyall/formemailer/master/FormEmailer.zip) 
 
-### Uninstall Previous Version
-If you were previously using Henrique's script (version 3.64 and below), please follow these steps below to uninstall first.
-  1. Open up the desired spreadsheet and click the menu Tools > Script editor...
-  2. Make sure the FormEmailer script is the one opened (by looking at the tab name). If not, search for it in the menu File > Open. 
-  3. Before deleting the script, let's removed any setup triggers by clicking the menu Triggers > Current script's triggers.
-  4. Remove the triggers by clicking the "x" button on the left of each one, and click Save. Don't worry with the fixed "onOpen" and "onEdit" ones.
-  5. Now click the menu File > Delete.
+1. Unzip the downloaded file (FormEmailer.zip)
+2. In the sheet you want FormEmailer installed in, click "Tools" > "Script Editor" to open the scripts editor in a new tab.
+3. Select "File" > "New" > "HTML file". Create 4 files like this, with the following names (make sure these are spelled correctly):
+   - about
+   - settings
+   - install
+   - fix-sheet
+  Once done, you should see 5 files on the lefthand side of the editor:
 
-### Script Installation
-Once you have downloaded the add-on, you should see a new menu at the top of your spreadsheet called "FormEmailer". If you select this menu, click the "Install" button on the drop down that appears.
+image.png
+
+ 4. Copy / paste the contents of each file in the attached zip file into the corresponding files. The easiest way to do this is by opening up each file in a text editor, selecting all text (Ctrl+a) and copying it. Then, in the script editor, select all text, delete it, and then paste the file contents. Make sure you save each file as you paste contents in.
+
+ 5. Close the script editor, and refresh your spreadsheet. 
+
+
+### Installation
+Once you have copied the script contents over, you should see a new menu at the top of your spreadsheet called "FormEmailer". If you select this menu, click the "Install" button on the drop down that appears.
 
 An OAuth screen will open in a new tab for you to grant necessary permissions to FormEmailer. Please note: I am still in the process of verifying my domain for this add-on; as a result, you will see the following screen after OAuth submission:
 
