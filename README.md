@@ -33,8 +33,8 @@ Please download the zip file [here](https://raw.github.com/clyall/formemailer/ma
    - install
    - fix-sheet
   Once done, you should see 5 files on the lefthand side of the editor:
-
-image.png
+  
+  ![Script Files](/script-files.PNG)
 
  4. Copy / paste the contents of each file in the attached zip file into the corresponding files. The easiest way to do this is by opening up each file in a text editor, selecting all text (Ctrl+a) and copying it. Then, in the script editor, select all text, delete it, and then paste the file contents. Make sure you save each file as you paste contents in.
 
