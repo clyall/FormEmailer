@@ -44,24 +44,24 @@ Please download the zip file [here](https://raw.github.com/clyall/formemailer/ma
 ### Installation
 Once you have copied the script contents over, you should see a new menu at the top of your spreadsheet called "FormEmailer". If you select this menu, click the "Install" button on the drop down that appears.
 
-An OAuth screen will open in a new tab for you to grant necessary permissions to FormEmailer. Please note: I am still in the process of verifying my domain for this add-on; as a result, you will see the following screen after OAuth submission:
+An OAuth screen will open in a new tab for you to grant necessary permissions to FormEmailer. Please note: this script is not officially published through the Chrome Webstore; as a result, you will see the following screen after OAuth submission:
 
 ![OAuth Consent](/oauth-consent.png)
 
 Select "Advanced" > "Go To (sheet-name) project (unsafe) " (unless you do not trust any of this, in which case you can wait until the official release :) )
 
-Select your language and the sheet you would like FormEmailer to send emails about (usually the sheet containing your Google Form responses). Once you select the "Install" button, the add-on will setup it's configuration and create a new sheet called "FormEmailer". This sheet contains all the configuration for the add-on; please do not modify it directly.
+Select your language and the sheet you would like FormEmailer to send emails about (usually the sheet containing your Google Form responses). Once you select the "Install" button, the script will setup it's configuration and create a new sheet called "FormEmailer". This sheet contains all the configuration for the script; please do not modify it directly.
 
 
 ### Time-Trigger Installation
-In order for FormEmailer to work properly, you must setup a "Time-trigger" to have this add-on run automatically in the background. Below are the steps to get this setup:
+In order for FormEmailer to work properly, you must setup a "Time-trigger" to have this script run automatically in the background. Below are the steps to get this setup:
 
 1. Open your spreadsheet, and select "Tools > Script Editor" on the top menu. This should open a new tab titled "FormEmailer"
 2. On this tab, select "Edit > Current Project Triggers" on the top menu. This will also open a new tab.
 3. In this tab, click the "Add Trigger" button found at the bottom right. 
 4. A dialog will popup asking for a bunch of configuration values. You can use the values found below as defaults:
    ![Config Values](/time-driven-config.png)
-   Note that you can change the "Select type of time based trigger" to have this add-on run autmoatically at any given time interval.
+   Note that you can change the "Select type of time based trigger" to have this script run autmoatically at any given time interval.
 
 5. Select "Save" on the popup window
 6. If eveything went OK, you should see the following row displayed:
@@ -114,7 +114,7 @@ All text formats start with the letter, "s" (for string)
 | sDown | sD | transform all text to lowercase | "Name" > "name" |
 | sProper | sP | all first letters will be uppercase and other others lowercase | "mY NAmE" > "My Name" |
 ### Date Formatting
-The add-on uses a built-in utility to do the date formatting. For more acceptable formats, you can take a look [here](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+The script uses a built-in utility to do the date formatting. For more acceptable formats, you can take a look [here](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
 
 | Format | Result | 
 | ------ | ------ |
