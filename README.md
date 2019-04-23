@@ -6,6 +6,7 @@ This script integrates directly with a Google Sheet that holds Google Form respo
 
 # Table of Contents
 1. [Getting Started](#getting-started)
+   * [Upgrade Versions](#upgrade-versions)
    * [Installation](#installation)
    * [Time-Trigger Installation](#time-trigger-installation)
 2. [Configuration](#configuration)
@@ -40,6 +41,11 @@ Please download the zip file [here](https://raw.github.com/clyall/formemailer/ma
 
  5. Close the script editor, and refresh your spreadsheet. 
 
+### Upgrade Versions
+If your spreadsheet already has a previous version of FormEmailer running, setup your files in [Getting Started](#getting-started) and then follow the steps below.
+1. Click "FormEmailer" > "Settings"
+2. You should see a prompt asking if you would like to update your version of FormEmailer
+3. Select "OK". Please note your previous settings will be overwritten. If you can find any fields you want to re-use in the FormEmailer Cell B3 (Settings Cell), copy them and set aside. Then, when the version upgrade goes through, you can paste those values back into the Settings UI ("FormEmailer" > "Settings"). You can now proceed to the * [Time-Trigger Installation](#time-trigger-installation) section.
 
 ### Installation
 Once you have copied the script contents over, you should see a new menu at the top of your spreadsheet called "FormEmailer". If you select this menu, click the "Install" button on the drop down that appears.
@@ -48,7 +54,7 @@ An OAuth screen will open in a new tab for you to grant necessary permissions to
 
 ![OAuth Consent](/oauth-consent.png)
 
-Select "Advanced" > "Go To (sheet-name) project (unsafe) " (unless you do not trust any of this, in which case you can wait until the official release :) )
+Select "Advanced" > "Go To (sheet-name) project (unsafe) "
 
 Select your language and the sheet you would like FormEmailer to send emails about (usually the sheet containing your Google Form responses). Once you select the "Install" button, the script will setup it's configuration and create a new sheet called "FormEmailer". This sheet contains all the configuration for the script; please do not modify it directly.
 
