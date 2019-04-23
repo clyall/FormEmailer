@@ -1,5 +1,5 @@
 # FormEmailer  
-This is a fork of Henrique Abreu's FormEmailer for Google Forms / Sheets. This fork includes UI updates to Henrique's script, with the deprecation of UiApp. Henrique's script has been updated to a Sheets Add-on, which can be installed in Google Sheets. His original project can be found here:
+This is a fork of Henrique Abreu's FormEmailer for Google Forms / Sheets. This fork includes UI updates to Henrique's script, with the deprecation of UiApp. His original project can be found here:
 https://sites.google.com/site/formemailer/form-emailer
 
 This script integrates directly with a Google Sheet that holds Google Form responses. Once installed on the spreadsheet containing form responses, this add-on will automatically send notification emails containing the form responses. There are several configuration values to help you customize the emails, which are detailed below
